@@ -3,7 +3,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end("WELCOME TO THE FORTUNE CLOUD!!!\n'");
+    res.end("hey this is sam here!!!\n'");
 });
 server.listen(port, () => {
     console.log(`Server running on port ${port}/`);
